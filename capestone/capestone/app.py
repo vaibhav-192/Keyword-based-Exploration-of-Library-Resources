@@ -12,8 +12,8 @@ app.secret_key = 'secret_key_for_flask_session'
 # AWS S3 Configuration
 s3 = boto3.client(
     's3',
-    aws_access_key_id='AKIAXKPUZUCMPHBZTDVX',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key='',
     region_name='ap-south-1',
     config=config
 )
